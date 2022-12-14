@@ -233,4 +233,3 @@ def box_plot_between_income_and_UF():
     gp.set_yticklabels([key for key in uf.values()], fontsize=12)    # Configurando o label de cada categoria do eixo Y
     plt.show()
 
-box_plot_between_income_and_UF()
