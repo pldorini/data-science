@@ -4,6 +4,7 @@ from scipy.special import comb
 from scipy.stats import binom
 import matplotlib.pyplot as plt
 from scipy.stats import poisson
+
 data = pd.read_csv('dados.csv')
 
 #Em um concurso para preencher uma vaga de cientista de dados temos um total de 10 questões de múltipla escolha com 3 alternativas possíveis em cada questão. Cada questão tem o mesmo valor. Suponha que um candidato resolva se aventurar sem ter estudado absolutamente nada. Ele resolve fazer a prova de olhos vendados e chutar todas as resposta. Assumindo que a prova vale 10 pontos e a nota de corte seja 5, A) obtenha a probabilidade deste candidato acertar 5 questões e B) a probabilidade deste candidato passar para a próxima etapa do processo seletivo
